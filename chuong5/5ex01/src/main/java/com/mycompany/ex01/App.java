@@ -18,7 +18,7 @@ public class App {
     // Cấu hình thông số kết nối
     private static final String URL = "jdbc:mysql://localhost:3306/test_db";
     private static final String USER = "root";
-    private static final String PASSWORD = "123321Long"; // Mặc định XAMPP thường để trống
+    private static final String PASSWORD = "123321Long  "; // Mặc định XAMPP thường để trống
 
     public static void main(String[] args) {
         // 1. Kết nối đến cơ sở dữ liệu

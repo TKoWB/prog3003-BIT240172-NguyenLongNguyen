@@ -9,3 +9,5 @@ chương 3 hoàn thành lúc 17:24 4/2/2026
 chương 4 hoàn thành lúc 21:36 9/2/2026
 
 chương 5 hoàn thành lúc 23:39 26/2/2026
+
+bài tập 2 hoàn thành lúc 17:00 3/10/2026

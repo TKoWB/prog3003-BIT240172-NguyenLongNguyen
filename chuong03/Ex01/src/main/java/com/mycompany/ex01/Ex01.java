@@ -8,16 +8,9 @@ package com.mycompany.ex01;
  *
  * @author Admin
  */
-public class Ex01 {
-
-    public static void main(String[] args) {
-        
-            WorkerThread t1 = new WorkerThread();
-            
-            Runnable r1 = new WorkerRunnable();
-            Thread t2 = new Thread(r1);
-            
-            t1.start();
-            t2.start();
-    }
-}
+.thenApply(result -> {
+    System.out.println("Truoc khi sap xep: " + result);
+    // Sort by GPA in descending order (highest first)
+    result.sort((s1, s2) -> Double.compare(s2.getGpa(), s1.getGpa()));
+    return result;
+})
